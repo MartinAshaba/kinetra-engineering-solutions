@@ -18,3 +18,11 @@ Open `index.html` in a web browser.
 - Replace capability examples with verified project work as you gain it.
 - The enquiry form opens the visitor's email application; it does not store or submit data to a server.
 - This is a static HTML/CSS/JavaScript site, so the source can be moved to another static host later.
+
+
+## Online quotation form and WhatsApp
+- The floating WhatsApp button opens a chat with the business number +256 705 115 418.
+- The quotation form posts to FormSubmit, which forwards form submissions to kinetraengineeringsolutions@gmail.com.
+- IMPORTANT: After publishing these files, submit one test request and click the activation link sent by FormSubmit to the business inbox. Check Spam/Junk if it does not arrive. Do not advertise the form as operational until the email activation is complete and a test enquiry has been received.
+- The thank-you page is `thank-you.html`. If you change the Pages project URL, update the `_next` and `_url` hidden fields in `index.html`.
+- FormSubmit is a third-party service; review its current privacy and usage terms before collecting customer information.
