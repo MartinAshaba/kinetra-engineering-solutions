@@ -10,3 +10,19 @@ footer{background:#071827;color:#b8c6cf;padding:27px 0 17px}.footmain,.footbotto
 @media(max-width:850px){.links{gap:16px}.intro,.split{gap:40px}.sectionhead{gap:25px}.cards article{padding:22px 18px}}
 @media(max-width:680px){.wrap{width:calc(100% - 34px)}.section{padding:70px 0}.nav{height:70px}.menu{display:block}.links{display:none;position:absolute;top:70px;left:0;right:0;background:white;padding:15px 22px 22px;box-shadow:0 12px 20px #07182718;flex-direction:column;align-items:stretch;gap:0}.links.open{display:flex}.links a{padding:12px 0}.links .navcta{text-align:center;margin-top:8px;padding:12px}.hero{min-height:650px}.hero-inner{padding:70px 0 150px}h1{font-size:clamp(47px,12vw,68px);letter-spacing:-2px}.lead{font-size:14px}.hero:after{right:-290px}.hero-foot{gap:10px;justify-content:space-between}.hero-foot span{max-width:32%;font-size:9px}.hero-foot b{display:block;font-size:17px}.intro,.split{grid-template-columns:1fr;gap:24px}.bodycopy{padding-top:0}.sectionhead{display:block}.sectionhead>p{margin-top:18px}.cards,.workcards{grid-template-columns:1fr}.cards article{min-height:200px}.workcards article{min-height:235px}.approach .split{gap:35px}form{padding:22px}.footmain{align-items:flex-start;flex-wrap:wrap}.footmain p{order:3;width:100%}.footbottom{align-items:flex-start;flex-direction:column;gap:5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Supplied Kinetra full wordmark */
+.brand-image{display:flex;align-items:center;flex:0 1 355px;min-width:0}
+.brand-image img{display:block;width:100%;max-width:355px;height:auto;max-height:66px;object-fit:contain;object-position:left center}
+.footmain .brand-image{flex-basis:330px}
+.footmain .brand-image img{max-width:330px;max-height:62px}
+@media(max-width:850px){
+  .brand-image{flex-basis:300px}
+  .brand-image img{max-width:300px;max-height:58px}
+}
+@media(max-width:680px){
+  .brand-image{flex-basis:250px;max-width:calc(100% - 58px)}
+  .brand-image img{max-width:250px;max-height:54px}
+  .footmain .brand-image{flex-basis:250px}
+  .footmain .brand-image img{max-width:250px;max-height:54px}
+}
