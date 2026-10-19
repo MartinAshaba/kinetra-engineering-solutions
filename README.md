@@ -1,28 +1,27 @@
-# Kinetra Engineering Solutions — website starter
+# Kinetra Engineering Solutions — corrected website files
 
-Files: `index.html`, `styles.css`, `script.js`, and `logo.svg` (the supplied Kinetra wordmark).
+## Files
+- `index.html` — company website and the single quotation form
+- `styles.css` — responsive styling
+- `script.js` — mobile navigation and current year only; it does not intercept form submissions
+- `logo.svg` — Kinetra logo
+- `thank-you.html` — confirmation page after a successful FormSubmit submission
 
-## Preview
-Open `index.html` in a web browser.
+## Publish the correction to Cloudflare Pages
+1. Download and extract this ZIP.
+2. Open the GitHub repository: https://github.com/MartinAshaba/kinetra-engineering-solutions
+3. Upload the files inside this ZIP to the repository root (the same level as the existing `index.html`), replacing files with the same names.
+4. Commit the changes.
+5. Wait for Cloudflare Pages to redeploy, then test: https://kinetra-engineering-solutions.pages.dev/
 
-## Publish with GitHub Pages
-1. Create a **public** repository, e.g. `kinetra-engineering-solutions`.
-2. Upload `index.html`, `styles.css`, `script.js`, `logo.svg`, and `README.md` to the repository root (same level, not inside another folder).
-3. Open **Settings → Pages**.
-4. Under build/deployment, select **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-5. Follow the site URL displayed in Settings → Pages. Publishing can take a few minutes.
+## Quotation form
+The site contains one form with:
+- FormSubmit destination: `kinetraengineeringsolutions@gmail.com`
+- Named fields for name, phone, email, service, project location, preferred timeline and project description
+- Table-format email template and a thank-you redirect
+- No JavaScript `preventDefault()` handler, so the form can submit to FormSubmit normally
 
-## Before publishing
-- The business name is proposed and must be confirmed with URSB before calling it registered.
-- Check that the services listed match what the business can lawfully and competently provide.
-- Replace capability examples with verified project work as you gain it.
-- The enquiry form opens the visitor's email application; it does not store or submit data to a server.
-- This is a static HTML/CSS/JavaScript site, so the source can be moved to another static host later.
+## Required test
+After deployment, fill in every required field with sample details and submit the form. Confirm the notification email includes the details. If FormSubmit asks for first-time activation, click the activation link in the business inbox and submit another test. Check Spam/Junk if needed. Do not rely on the form until the test details arrive correctly.
 
-
-## Online quotation form and WhatsApp
-- The floating WhatsApp button opens a chat with the business number +256 705 115 418.
-- The quotation form posts to FormSubmit, which forwards form submissions to kinetraengineeringsolutions@gmail.com.
-- IMPORTANT: After publishing these files, submit one test request and click the activation link sent by FormSubmit to the business inbox. Check Spam/Junk if it does not arrive. Do not advertise the form as operational until the email activation is complete and a test enquiry has been received.
-- The thank-you page is `thank-you.html`. If you change the Pages project URL, update the `_next` and `_url` hidden fields in `index.html`.
-- FormSubmit is a third-party service; review its current privacy and usage terms before collecting customer information.
+FormSubmit is a third-party service. Review its current privacy and usage terms before collecting customer information. Do not collect sensitive information such as passwords or payment card details.
